@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Retrace",
+  "version": "0.1.0",
+  "description": "Un historique plus clair : vos journées regroupées par site, avec le temps passé.",
+  "permissions": ["history", "cookies", "tabs", "idle", "alarms", "storage", "favicon"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "history": "history.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Retrace",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}

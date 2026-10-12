@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light dark">
+  <title>History</title>
+  <link rel="stylesheet" href="history.css">
+</head>
+<body>
+  <main>
+    <header class="top">
+      <h1 id="title"></h1>
+      <div class="segmented" id="sort" role="group">
+        <button type="button" data-sort="time"></button>
+        <button type="button" data-sort="recent"></button>
+      </div>
+    </header>
+
+    <label class="search">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+      <input id="search" type="search" autocomplete="off" spellcheck="false" autofocus>
+    </label>
+
+    <section class="summary" id="summary" hidden>
+      <div class="stat"><span class="stat-label" data-label="time"></span><span class="stat-value" data-stat="time"></span></div>
+      <div class="stat"><span class="stat-label" data-label="sites"></span><span class="stat-value" data-stat="sites"></span></div>
+      <div class="stat"><span class="stat-label" data-label="pages"></span><span class="stat-value" data-stat="pages"></span></div>
+    </section>
+
+    <div id="days"></div>
+    <div id="results" hidden></div>
+    <p class="empty" id="empty" hidden></p>
+    <div id="sentinel"></div>
+  </main>
+  <script src="history.js"></script>
+</body>
+</html>
