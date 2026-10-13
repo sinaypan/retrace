@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Retrace",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Un historique plus clair : vos journées regroupées par site, avec le temps passé.",
   "permissions": ["history", "cookies", "tabs", "idle", "alarms", "storage", "favicon"],
   "host_permissions": ["<all_urls>"],

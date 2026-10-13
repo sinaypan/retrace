@@ -39,6 +39,8 @@ Retrace is not on the Chrome Web Store, so it is loaded by hand:
 
 Everything stays on your computer. Retrace has no server, no account and no analytics, and it makes no network requests.
 
+The time counts follow your history: they are kept for 90 days, a site's counts are deleted once none of its pages is left in the history, and clearing your whole history clears them all.
+
 | Permission | Why it is needed |
 | --- | --- |
 | `history` | Read and search your history, and remove pages from it |
