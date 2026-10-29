@@ -1,0 +1,130 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "更清晰的历史记录：按网站归类每天的浏览，并显示停留时间。"
+  },
+  "title": {
+    "message": "历史记录"
+  },
+  "sortLabel": {
+    "message": "网站排序方式"
+  },
+  "sortTime": {
+    "message": "时长"
+  },
+  "sortRecent": {
+    "message": "最近"
+  },
+  "search": {
+    "message": "搜索历史记录"
+  },
+  "today": {
+    "message": "今天"
+  },
+  "yesterday": {
+    "message": "昨天"
+  },
+  "statTime": {
+    "message": "今日时长"
+  },
+  "statSites": {
+    "message": "网站"
+  },
+  "statPages": {
+    "message": "页面"
+  },
+  "pages_other": {
+    "message": "$COUNT$ 个页面",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ 个网站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ 次访问",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ 个 Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "最近一次 $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "每页 $DURATION$",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "共 $COUNT$ 次访问",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "再显示 $COUNT$ 个网站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "再显示 $COUNT$ 个页面",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "清除 Cookie"
+  },
+  "confirmClear_other": {
+    "message": "清除 $COUNT$ 个 Cookie？",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "从历史记录中删除"
+  },
+  "empty": {
+    "message": "你的浏览记录会显示在这里。"
+  },
+  "noResults": {
+    "message": "没有与搜索匹配的页面。"
+  }
+}

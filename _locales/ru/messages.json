@@ -1,0 +1,322 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "Понятная история: ваши дни, сгруппированные по сайтам, с проведённым временем."
+  },
+  "title": {
+    "message": "История"
+  },
+  "sortLabel": {
+    "message": "Сортировать сайты по"
+  },
+  "sortTime": {
+    "message": "Времени"
+  },
+  "sortRecent": {
+    "message": "Новизне"
+  },
+  "search": {
+    "message": "Поиск по истории"
+  },
+  "today": {
+    "message": "Сегодня"
+  },
+  "yesterday": {
+    "message": "Вчера"
+  },
+  "statTime": {
+    "message": "Время сегодня"
+  },
+  "statSites": {
+    "message": "Сайты"
+  },
+  "statPages": {
+    "message": "Страницы"
+  },
+  "pages_one": {
+    "message": "$COUNT$ страница",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_few": {
+    "message": "$COUNT$ страницы",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_many": {
+    "message": "$COUNT$ страниц",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_other": {
+    "message": "$COUNT$ страницы",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_one": {
+    "message": "$COUNT$ сайт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_few": {
+    "message": "$COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_many": {
+    "message": "$COUNT$ сайтов",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_one": {
+    "message": "$COUNT$ посещение",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_few": {
+    "message": "$COUNT$ посещения",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_many": {
+    "message": "$COUNT$ посещений",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ посещения",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_one": {
+    "message": "$COUNT$ файл cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_few": {
+    "message": "$COUNT$ файла cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_many": {
+    "message": "$COUNT$ файлов cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ файла cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "последний раз в $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "$DURATION$ на страницу",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_one": {
+    "message": "всего $COUNT$ посещение",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_few": {
+    "message": "всего $COUNT$ посещения",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_many": {
+    "message": "всего $COUNT$ посещений",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "всего $COUNT$ посещения",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_one": {
+    "message": "Показать ещё $COUNT$ сайт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_few": {
+    "message": "Показать ещё $COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_many": {
+    "message": "Показать ещё $COUNT$ сайтов",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "Показать ещё $COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_one": {
+    "message": "Показать ещё $COUNT$ страницу",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_few": {
+    "message": "Показать ещё $COUNT$ страницы",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_many": {
+    "message": "Показать ещё $COUNT$ страниц",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "Показать ещё $COUNT$ страницы",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "Удалить cookie"
+  },
+  "confirmClear_one": {
+    "message": "Удалить $COUNT$ файл cookie?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_few": {
+    "message": "Удалить $COUNT$ файла cookie?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_many": {
+    "message": "Удалить $COUNT$ файлов cookie?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_other": {
+    "message": "Удалить $COUNT$ файла cookie?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "Удалить из истории"
+  },
+  "empty": {
+    "message": "Здесь появится ваша история просмотра."
+  },
+  "noResults": {
+    "message": "Нет страниц по этому запросу."
+  }
+}

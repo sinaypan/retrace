@@ -12,7 +12,7 @@ A cleaner history page for Chrome. Retrace replaces the page behind Ctrl+H with 
 - **Time spent.** Retrace records how long each site is in front of you. It stops when Chrome loses focus or the screen locks, and keeps counting while a video with sound is playing.
 - **Details on demand.** Click a site to see its pages, its total visits and how many cookies it has stored. From there you can remove a page from history or clear the site's cookies.
 - **Search.** Type in the bar, or press `/` to jump to it and Esc to clear.
-- **Light and dark.** Follows your system theme. The page follows the language of Chrome: English by default, French when Chrome is set to French.
+- **Light and dark.** Follows your system theme. The page follows the language of Chrome: English by default, and also French, Spanish, Brazilian Portuguese, German, Italian, Russian, Turkish, Arabic, Japanese, Korean and Simplified Chinese.
 
 | Light theme | Search |
 | --- | --- |

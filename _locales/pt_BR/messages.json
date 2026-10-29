@@ -1,0 +1,194 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "Um histórico mais claro: seus dias agrupados por site, com o tempo gasto."
+  },
+  "title": {
+    "message": "Histórico"
+  },
+  "sortLabel": {
+    "message": "Ordenar sites por"
+  },
+  "sortTime": {
+    "message": "Tempo"
+  },
+  "sortRecent": {
+    "message": "Recentes"
+  },
+  "search": {
+    "message": "Pesquisar no histórico"
+  },
+  "today": {
+    "message": "Hoje"
+  },
+  "yesterday": {
+    "message": "Ontem"
+  },
+  "statTime": {
+    "message": "Tempo hoje"
+  },
+  "statSites": {
+    "message": "Sites"
+  },
+  "statPages": {
+    "message": "Páginas"
+  },
+  "pages_one": {
+    "message": "$COUNT$ página",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_other": {
+    "message": "$COUNT$ páginas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ sites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_one": {
+    "message": "$COUNT$ visita",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ visitas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "última às $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "$DURATION$ por página",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_one": {
+    "message": "$COUNT$ visita no total",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "$COUNT$ visitas no total",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_one": {
+    "message": "Mostrar mais $COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "Mostrar mais $COUNT$ sites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_one": {
+    "message": "Mostrar mais $COUNT$ página",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "Mostrar mais $COUNT$ páginas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "Limpar cookies"
+  },
+  "confirmClear_one": {
+    "message": "Limpar $COUNT$ cookie?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_other": {
+    "message": "Limpar $COUNT$ cookies?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "Remover do histórico"
+  },
+  "empty": {
+    "message": "Sua navegação vai aparecer aqui."
+  },
+  "noResults": {
+    "message": "Nenhuma página corresponde a essa pesquisa."
+  }
+}

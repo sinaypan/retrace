@@ -1,0 +1,194 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "Daha net bir geçmiş: günleriniz siteye göre gruplanmış, geçirilen süreyle birlikte."
+  },
+  "title": {
+    "message": "Geçmiş"
+  },
+  "sortLabel": {
+    "message": "Siteleri sırala"
+  },
+  "sortTime": {
+    "message": "Süre"
+  },
+  "sortRecent": {
+    "message": "En yeni"
+  },
+  "search": {
+    "message": "Geçmişte ara"
+  },
+  "today": {
+    "message": "Bugün"
+  },
+  "yesterday": {
+    "message": "Dün"
+  },
+  "statTime": {
+    "message": "Bugünkü süre"
+  },
+  "statSites": {
+    "message": "Siteler"
+  },
+  "statPages": {
+    "message": "Sayfalar"
+  },
+  "pages_one": {
+    "message": "$COUNT$ sayfa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_other": {
+    "message": "$COUNT$ sayfa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_one": {
+    "message": "$COUNT$ ziyaret",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ ziyaret",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_one": {
+    "message": "$COUNT$ çerez",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ çerez",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "son: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "sayfa başına $DURATION$",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_one": {
+    "message": "toplam $COUNT$ ziyaret",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "toplam $COUNT$ ziyaret",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_one": {
+    "message": "$COUNT$ site daha göster",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "$COUNT$ site daha göster",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_one": {
+    "message": "$COUNT$ sayfa daha göster",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "$COUNT$ sayfa daha göster",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "Çerezleri temizle"
+  },
+  "confirmClear_one": {
+    "message": "$COUNT$ çerez temizlensin mi?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_other": {
+    "message": "$COUNT$ çerez temizlensin mi?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "Geçmişten kaldır"
+  },
+  "empty": {
+    "message": "Gezinmeniz burada görünecek."
+  },
+  "noResults": {
+    "message": "Bu aramayla eşleşen sayfa yok."
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "سجل أوضح: أيامك مجمّعة حسب الموقع، مع الوقت المستغرق."
+  },
+  "title": {
+    "message": "السجل"
+  },
+  "sortLabel": {
+    "message": "ترتيب المواقع حسب"
+  },
+  "sortTime": {
+    "message": "الوقت"
+  },
+  "sortRecent": {
+    "message": "الأحدث"
+  },
+  "search": {
+    "message": "البحث في السجل"
+  },
+  "today": {
+    "message": "اليوم"
+  },
+  "yesterday": {
+    "message": "أمس"
+  },
+  "statTime": {
+    "message": "وقت اليوم"
+  },
+  "statSites": {
+    "message": "المواقع"
+  },
+  "statPages": {
+    "message": "الصفحات"
+  },
+  "pages_zero": {
+    "message": "لا صفحات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_one": {
+    "message": "صفحة واحدة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_two": {
+    "message": "صفحتان",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_few": {
+    "message": "$COUNT$ صفحات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_many": {
+    "message": "$COUNT$ صفحة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_other": {
+    "message": "$COUNT$ صفحة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_zero": {
+    "message": "لا مواقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_one": {
+    "message": "موقع واحد",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_two": {
+    "message": "موقعان",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_few": {
+    "message": "$COUNT$ مواقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_many": {
+    "message": "$COUNT$ موقعًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ موقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_zero": {
+    "message": "لا زيارات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_one": {
+    "message": "زيارة واحدة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_two": {
+    "message": "زيارتان",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_few": {
+    "message": "$COUNT$ زيارات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_many": {
+    "message": "$COUNT$ زيارة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ زيارة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_zero": {
+    "message": "لا ملفات تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_one": {
+    "message": "ملف تعريف ارتباط واحد",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_two": {
+    "message": "ملفا تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_few": {
+    "message": "$COUNT$ ملفات تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_many": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "آخر مرة الساعة $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "$DURATION$ لكل صفحة",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_zero": {
+    "message": "لا زيارات إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_one": {
+    "message": "زيارة واحدة إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_two": {
+    "message": "زيارتان إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_few": {
+    "message": "$COUNT$ زيارات إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_many": {
+    "message": "$COUNT$ زيارة إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "$COUNT$ زيارة إجمالًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_zero": {
+    "message": "عرض المزيد",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_one": {
+    "message": "عرض موقع آخر",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_two": {
+    "message": "عرض موقعين آخرين",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_few": {
+    "message": "عرض $COUNT$ مواقع أخرى",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_many": {
+    "message": "عرض $COUNT$ موقعًا آخر",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "عرض $COUNT$ موقع آخر",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_zero": {
+    "message": "عرض المزيد",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_one": {
+    "message": "عرض صفحة أخرى",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_two": {
+    "message": "عرض صفحتين أخريين",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_few": {
+    "message": "عرض $COUNT$ صفحات أخرى",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_many": {
+    "message": "عرض $COUNT$ صفحة أخرى",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "عرض $COUNT$ صفحة أخرى",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "مسح ملفات تعريف الارتباط"
+  },
+  "confirmClear_zero": {
+    "message": "مسح ملفات تعريف الارتباط؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_one": {
+    "message": "مسح ملف تعريف ارتباط واحد؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_two": {
+    "message": "مسح ملفي تعريف ارتباط؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_few": {
+    "message": "مسح $COUNT$ ملفات تعريف ارتباط؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_many": {
+    "message": "مسح $COUNT$ ملف تعريف ارتباط؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_other": {
+    "message": "مسح $COUNT$ ملف تعريف ارتباط؟",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "إزالة من السجل"
+  },
+  "empty": {
+    "message": "سيظهر تصفحك هنا."
+  },
+  "noResults": {
+    "message": "لا توجد صفحات تطابق هذا البحث."
+  }
+}

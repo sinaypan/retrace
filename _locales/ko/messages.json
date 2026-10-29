@@ -1,0 +1,130 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "더 깔끔한 방문 기록: 하루를 사이트별로 묶고 머문 시간을 보여 줍니다."
+  },
+  "title": {
+    "message": "방문 기록"
+  },
+  "sortLabel": {
+    "message": "사이트 정렬 기준"
+  },
+  "sortTime": {
+    "message": "시간"
+  },
+  "sortRecent": {
+    "message": "최근"
+  },
+  "search": {
+    "message": "방문 기록 검색"
+  },
+  "today": {
+    "message": "오늘"
+  },
+  "yesterday": {
+    "message": "어제"
+  },
+  "statTime": {
+    "message": "오늘 사용 시간"
+  },
+  "statSites": {
+    "message": "사이트"
+  },
+  "statPages": {
+    "message": "페이지"
+  },
+  "pages_other": {
+    "message": "페이지 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "사이트 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "방문 $COUNT$회",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "쿠키 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "마지막 방문 $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "페이지당 $DURATION$",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "총 방문 $COUNT$회",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "사이트 $COUNT$개 더 보기",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "페이지 $COUNT$개 더 보기",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "쿠키 삭제"
+  },
+  "confirmClear_other": {
+    "message": "쿠키 $COUNT$개를 삭제할까요?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "방문 기록에서 삭제"
+  },
+  "empty": {
+    "message": "여기에 방문 기록이 표시됩니다."
+  },
+  "noResults": {
+    "message": "검색과 일치하는 페이지가 없습니다."
+  }
+}

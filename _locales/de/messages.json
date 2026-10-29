@@ -1,0 +1,194 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "Ein übersichtlicherer Verlauf: deine Tage nach Website gruppiert, mit der verbrachten Zeit."
+  },
+  "title": {
+    "message": "Verlauf"
+  },
+  "sortLabel": {
+    "message": "Websites sortieren nach"
+  },
+  "sortTime": {
+    "message": "Zeit"
+  },
+  "sortRecent": {
+    "message": "Neueste"
+  },
+  "search": {
+    "message": "Verlauf durchsuchen"
+  },
+  "today": {
+    "message": "Heute"
+  },
+  "yesterday": {
+    "message": "Gestern"
+  },
+  "statTime": {
+    "message": "Zeit heute"
+  },
+  "statSites": {
+    "message": "Websites"
+  },
+  "statPages": {
+    "message": "Seiten"
+  },
+  "pages_one": {
+    "message": "$COUNT$ Seite",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pages_other": {
+    "message": "$COUNT$ Seiten",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_one": {
+    "message": "$COUNT$ Website",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ Websites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_one": {
+    "message": "$COUNT$ Besuch",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ Besuche",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_one": {
+    "message": "$COUNT$ Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "$COUNT$ Cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "zuletzt um $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "$DURATION$ pro Seite",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_one": {
+    "message": "$COUNT$ Besuch insgesamt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "$COUNT$ Besuche insgesamt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_one": {
+    "message": "$COUNT$ weitere Website zeigen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "$COUNT$ weitere Websites zeigen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_one": {
+    "message": "$COUNT$ weitere Seite zeigen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "$COUNT$ weitere Seiten zeigen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "Cookies löschen"
+  },
+  "confirmClear_one": {
+    "message": "$COUNT$ Cookie löschen?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmClear_other": {
+    "message": "$COUNT$ Cookies löschen?",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "Aus dem Verlauf entfernen"
+  },
+  "empty": {
+    "message": "Hier erscheint dein Surfverlauf."
+  },
+  "noResults": {
+    "message": "Keine Seite passt zu dieser Suche."
+  }
+}

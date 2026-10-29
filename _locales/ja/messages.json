@@ -1,0 +1,130 @@
+{
+  "extName": {
+    "message": "Retrace"
+  },
+  "extDesc": {
+    "message": "わかりやすい履歴：1日の閲覧をサイトごとにまとめ、滞在時間も表示します。"
+  },
+  "title": {
+    "message": "履歴"
+  },
+  "sortLabel": {
+    "message": "サイトの並べ替え"
+  },
+  "sortTime": {
+    "message": "時間"
+  },
+  "sortRecent": {
+    "message": "新しい順"
+  },
+  "search": {
+    "message": "履歴を検索"
+  },
+  "today": {
+    "message": "今日"
+  },
+  "yesterday": {
+    "message": "昨日"
+  },
+  "statTime": {
+    "message": "今日の時間"
+  },
+  "statSites": {
+    "message": "サイト"
+  },
+  "statPages": {
+    "message": "ページ"
+  },
+  "pages_other": {
+    "message": "$COUNT$ ページ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sites_other": {
+    "message": "$COUNT$ サイト",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "visits_other": {
+    "message": "$COUNT$ 回訪問",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookies_other": {
+    "message": "Cookie $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "lastAt": {
+    "message": "最終 $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "perPage": {
+    "message": "1 ページあたり $DURATION$",
+    "placeholders": {
+      "duration": {
+        "content": "$1"
+      }
+    }
+  },
+  "visitsOverall_other": {
+    "message": "合計 $COUNT$ 回訪問",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "moreSites_other": {
+    "message": "さらに $COUNT$ サイトを表示",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "morePages_other": {
+    "message": "さらに $COUNT$ ページを表示",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearCookies": {
+    "message": "Cookie を削除"
+  },
+  "confirmClear_other": {
+    "message": "Cookie を $COUNT$ 件削除しますか？",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "remove": {
+    "message": "履歴から削除"
+  },
+  "empty": {
+    "message": "ここに閲覧履歴が表示されます。"
+  },
+  "noResults": {
+    "message": "検索に一致するページはありません。"
+  }
+}
