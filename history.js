@@ -3,65 +3,6 @@ const SITE_LIMIT = 8;
 const PAGE_LIMIT = 8;
 const SEARCH_LIMIT = 100;
 
-const lang = navigator.language.startsWith('fr') ? 'fr' : 'en';
-const plural = (n, one, many) => `${n} ${(lang === 'fr' ? n < 2 : n === 1) ? one : many}`;
-
-const STRINGS = {
-  en: {
-    title: 'History',
-    sortLabel: 'Sort sites by',
-    sortTime: 'Time',
-    sortRecent: 'Recent',
-    search: 'Search history',
-    today: 'Today',
-    yesterday: 'Yesterday',
-    statTime: 'Time today',
-    statSites: 'Sites',
-    statPages: 'Pages',
-    pages: (n) => plural(n, 'page', 'pages'),
-    sites: (n) => plural(n, 'site', 'sites'),
-    visits: (n) => plural(n, 'visit', 'visits'),
-    cookies: (n) => plural(n, 'cookie', 'cookies'),
-    lastAt: (time) => `last at ${time}`,
-    perPage: (duration) => `${duration} per page`,
-    visitsOverall: (n) => `${plural(n, 'visit', 'visits')} overall`,
-    moreSites: (n) => `Show ${plural(n, 'more site', 'more sites')}`,
-    morePages: (n) => `Show ${plural(n, 'more page', 'more pages')}`,
-    clearCookies: 'Clear cookies',
-    confirmClear: (n) => `Clear ${plural(n, 'cookie', 'cookies')}?`,
-    remove: 'Remove from history',
-    empty: 'Your browsing will show up here.',
-    noResults: 'No pages match that search.',
-  },
-  fr: {
-    title: 'Historique',
-    sortLabel: 'Trier les sites par',
-    sortTime: 'Temps',
-    sortRecent: 'Récent',
-    search: 'Rechercher dans l’historique',
-    today: 'Aujourd’hui',
-    yesterday: 'Hier',
-    statTime: 'Temps aujourd’hui',
-    statSites: 'Sites',
-    statPages: 'Pages',
-    pages: (n) => plural(n, 'page', 'pages'),
-    sites: (n) => plural(n, 'site', 'sites'),
-    visits: (n) => plural(n, 'visite', 'visites'),
-    cookies: (n) => plural(n, 'cookie', 'cookies'),
-    lastAt: (time) => `dernière à ${time}`,
-    perPage: (duration) => `${duration} par page`,
-    visitsOverall: (n) => `${plural(n, 'visite', 'visites')} au total`,
-    moreSites: (n) => `Afficher ${plural(n, 'autre site', 'autres sites')}`,
-    morePages: (n) => `Afficher ${plural(n, 'autre page', 'autres pages')}`,
-    clearCookies: 'Effacer les cookies',
-    confirmClear: (n) => `Effacer ${plural(n, 'cookie', 'cookies')} ?`,
-    remove: 'Retirer de l’historique',
-    empty: 'Votre navigation apparaîtra ici.',
-    noResults: 'Aucune page ne correspond à cette recherche.',
-  },
-};
-const t = STRINGS[lang];
-
 const $ = (selector) => document.querySelector(selector);
 
 function el(tag, props, ...children) {
@@ -103,8 +44,8 @@ function endOfDay(start) {
 }
 
 function dayLabel(start) {
-  if (start === startOfDay(0)) return t.today;
-  if (start === startOfDay(1)) return t.yesterday;
+  if (start === startOfDay(0)) return t('today');
+  if (start === startOfDay(1)) return t('yesterday');
   const label = new Date(start).toLocaleDateString([], { weekday: 'long', day: 'numeric', month: 'long' });
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
@@ -249,10 +190,10 @@ function renderDay(day) {
       class: 'more',
       type: 'button',
       onclick: () => { day.allSites = true; renderDay(day); },
-    }, t.moreSites(sites.length - shown.length)));
+    }, tp('moreSites', sites.length - shown.length)));
   }
 
-  const meta = [day.data.total > 0 && fmtDuration(day.data.total), t.sites(sites.length)].filter(Boolean).join(' · ');
+  const meta = [day.data.total > 0 && fmtDuration(day.data.total), tp('sites', sites.length)].filter(Boolean).join(' · ');
   day.el.replaceChildren(
     el('h2', null, el('span', null, dayLabel(day.start)), el('span', { class: 'day-meta' }, meta)),
     card,
@@ -277,10 +218,10 @@ function siteRow(day, site, hasTime, max) {
     favicon(site.pages[0].url, site.host),
     el('span', { class: 'site-text' },
       el('span', { class: 'site-name' }, site.host),
-      el('span', { class: 'site-sub' }, `${t.pages(site.pages.length)} · ${t.lastAt(fmtClock(site.last))}`)),
+      el('span', { class: 'site-sub' }, `${tp('pages', site.pages.length)} · ${t('lastAt', fmtClock(site.last))}`)),
     el('span', { class: 'bar' }, fill),
     el('span', { class: site.time ? 'site-value' : 'site-value muted' },
-      site.time ? fmtDuration(site.time) : t.visits(site.visits)),
+      site.time ? fmtDuration(site.time) : tp('visits', site.visits)),
     chevron(),
   );
   return open ? [row, siteDetail(day, site)] : [row];
@@ -289,14 +230,14 @@ function siteRow(day, site, hasTime, max) {
 function siteDetail(day, site) {
   const overall = el('span');
   const cookies = el('span');
-  const clear = el('button', { class: 'link', type: 'button', hidden: true }, t.clearCookies);
+  const clear = el('button', { class: 'link', type: 'button', hidden: true }, t('clearCookies'));
   const meta = el('div', { class: 'meta' },
-    site.time > 0 && el('span', null, t.perPage(fmtDuration(site.time / site.visits))),
+    site.time > 0 && el('span', null, t('perPage', fmtDuration(site.time / site.visits))),
     overall, cookies, clear);
 
   siteMeta(site.host).then((info) => {
-    overall.textContent = t.visitsOverall(info.visits);
-    cookies.textContent = t.cookies(info.cookies.length);
+    overall.textContent = tp('visitsOverall', info.visits);
+    cookies.textContent = tp('cookies', info.cookies.length);
     clear.hidden = info.cookies.length === 0;
   });
 
@@ -306,7 +247,7 @@ function siteDetail(day, site) {
     const info = await siteMeta(site.host);
     if (!armed) {
       armed = true;
-      clear.textContent = t.confirmClear(info.cookies.length);
+      clear.textContent = tp('confirmClear', info.cookies.length);
       clear.classList.add('danger');
       return;
     }
@@ -323,8 +264,8 @@ function siteDetail(day, site) {
     el('button', {
       class: 'remove',
       type: 'button',
-      title: t.remove,
-      'aria-label': t.remove,
+      title: t('remove'),
+      'aria-label': t('remove'),
       onclick: () => removePage(day, site.host, page.url),
     }, '×'))));
 
@@ -332,7 +273,7 @@ function siteDetail(day, site) {
     class: 'link',
     type: 'button',
     onclick: () => { day.allPages.add(site.host); renderDay(day); },
-  }, t.morePages(site.pages.length - pages.length));
+  }, tp('morePages', site.pages.length - pages.length));
 
   return el('div', { class: 'detail' }, meta, list, more);
 }
@@ -451,10 +392,10 @@ async function runSearch() {
 function updateEmpty(noResults = false) {
   const empty = $('#empty');
   if (searching()) {
-    empty.textContent = t.noResults;
+    empty.textContent = t('noResults');
     empty.hidden = !noResults;
   } else {
-    empty.textContent = t.empty;
+    empty.textContent = t('empty');
     empty.hidden = loading || days.length > 0;
   }
 }
@@ -467,17 +408,16 @@ function renderSort() {
   }
 }
 
-document.documentElement.lang = lang;
-document.title = t.title;
-$('#title').textContent = t.title;
-$('#search').placeholder = t.search;
-$('#search').setAttribute('aria-label', t.search);
-$('#sort').setAttribute('aria-label', t.sortLabel);
-$('[data-sort="time"]').textContent = t.sortTime;
-$('[data-sort="recent"]').textContent = t.sortRecent;
-$('[data-label="time"]').textContent = t.statTime;
-$('[data-label="sites"]').textContent = t.statSites;
-$('[data-label="pages"]').textContent = t.statPages;
+document.title = t('title');
+$('#title').textContent = t('title');
+$('#search').placeholder = t('search');
+$('#search').setAttribute('aria-label', t('search'));
+$('#sort').setAttribute('aria-label', t('sortLabel'));
+$('[data-sort="time"]').textContent = t('sortTime');
+$('[data-sort="recent"]').textContent = t('sortRecent');
+$('[data-label="time"]').textContent = t('statTime');
+$('[data-label="sites"]').textContent = t('statSites');
+$('[data-label="pages"]').textContent = t('statPages');
 $('#summary').hidden = false;
 renderSort();
 
